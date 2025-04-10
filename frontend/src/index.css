@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+/* Markdown content styling */
+.markdown-content {
+  line-height: 1.6;
+}
+
+.markdown-content h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-content h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-content h4, .markdown-content h5, .markdown-content h6 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-content p {
+  margin-bottom: 1em;
+}
+
+.markdown-content ul, .markdown-content ol {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.markdown-content ul {
+  list-style-type: disc;
+}
+
+.markdown-content ol {
+  list-style-type: decimal;
+}
+
+.markdown-content li {
+  margin-bottom: 0.3em;
+}
+
+.markdown-content blockquote {
+  border-left: 3px solid #e5e7eb;
+  padding-left: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+}
+
+.markdown-content code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.markdown-content pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin-bottom: 1em;
+}
+
+.markdown-content strong, .markdown-content b {
+  font-weight: bold;
+}
+
+.markdown-content em, .markdown-content i {
+  font-style: italic;
+}
+
+/* Fix markdown in dark-themed user messages */
+.bg-gradient-to-r.from-blue-500.to-blue-600 .markdown-content ul,
+.bg-gradient-to-r.from-blue-500.to-blue-600 .markdown-content ol {
+  color: white;
+}
+
+.bg-gradient-to-r.from-blue-500.to-blue-600 .markdown-content strong,
+.bg-gradient-to-r.from-blue-500.to-blue-600 .markdown-content b {
+  color: white;
+}
+
+.bg-gradient-to-r.from-blue-500.to-blue-600 .markdown-content code {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.bg-gradient-to-r.from-blue-500.to-blue-600 .markdown-content blockquote {
+  border-left-color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,156 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Smith",
+      "specialty": "General Physician",
+      "qualification": "MBBS, MD",
+      "experience": "15 years",
+      "password": "smith123",
+      "availability": {
+        "monday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "tuesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "wednesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "thursday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "friday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+      },
+      "contact": {
+        "phone": "123-456-7890",
+        "email": "smith@healthcare.example"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Dr. Johnson",
+      "specialty": "Cardiologist",
+      "qualification": "MBBS, MD, DM (Cardiology)",
+      "experience": "20 years",
+      "password": "johnson123",
+      "availability": {
+        "monday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "tuesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "wednesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "thursday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "friday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+      },
+      "contact": {
+        "phone": "123-456-7891",
+        "email": "johnson@healthcare.example"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Dr. Williams",
+      "specialty": "Dermatologist",
+      "qualification": "MBBS, MD, DM (Dermatology)",
+      "experience": "12 years",
+      "password": "williams123",
+      "availability": {
+        "monday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "tuesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "wednesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "thursday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "friday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+      },
+      "contact": {
+        "phone": "123-456-7892",
+        "email": "williams@healthcare.example"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Dr. Brown",
+      "specialty": "Orthopedic",
+      "qualification": "MBBS, MS (Orthopedics)",
+      "experience": "18 years",
+      "password": "brown123",
+      "availability": {
+        "monday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "tuesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "wednesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "thursday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "friday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+      },
+      "contact": {
+        "phone": "123-456-7893",
+        "email": "brown@healthcare.example"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Dr. Jones",
+      "specialty": "Pediatrician",
+      "qualification": "MBBS, MD (Pediatrics)",
+      "experience": "10 years",
+      "password": "jones123",
+      "availability": {
+        "monday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "tuesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "wednesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "thursday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "friday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+      },
+      "contact": {
+        "phone": "123-456-7894",
+        "email": "jones@healthcare.example"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Dr. Davis",
+      "specialty": "Neurologist",
+      "qualification": "MBBS, MD, DM (Neurology)",
+      "experience": "16 years",
+      "password": "davis123",
+      "availability": {
+        "monday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "tuesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "wednesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "thursday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "friday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+      },
+      "contact": {
+        "phone": "123-456-7895",
+        "email": "davis@healthcare.example"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Dr. Miller",
+      "specialty": "Psychiatrist",
+      "qualification": "MBBS, MD (Psychiatry)",
+      "experience": "14 years",
+      "password": "miller123",
+      "availability": {
+        "monday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "tuesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "wednesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "thursday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "friday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+      },
+      "contact": {
+        "phone": "123-456-7896",
+        "email": "miller@healthcare.example"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Dr. Wilson",
+      "specialty": "ENT Specialist",
+      "qualification": "MBBS, MS (ENT)",
+      "experience": "13 years",
+      "password": "wilson123",
+      "availability": {
+        "monday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "tuesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "wednesday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "thursday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"],
+        "friday": ["09:00", "10:00", "11:00", "14:00", "15:00", "16:00"]
+      },
+      "contact": {
+        "phone": "123-456-7897",
+        "email": "wilson@healthcare.example"
+      }
+    }
+  ]
+}

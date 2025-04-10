@@ -1,0 +1,14 @@
+flask
+flask-cors
+python-dotenv
+langchain
+langchain-google-genai
+langchain-community
+tavily-python
+colorama
+rich
+google-generativeai
+pypdf
+Werkzeug
+python-docx
+Pillow
